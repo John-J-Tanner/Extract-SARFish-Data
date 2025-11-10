@@ -1,0 +1,24 @@
+Best params:
+{'C': 0.0001, 'kernel': 'precomputed'}
+
+Training Performance:
+              precision    recall  f1-score   support
+
+         0.0     1.0000    1.0000    1.0000       500
+         1.0     1.0000    1.0000    1.0000       500
+
+    accuracy                         1.0000      1000
+   macro avg     1.0000    1.0000    1.0000      1000
+weighted avg     1.0000    1.0000    1.0000      1000
+
+
+Test Performance:
+              precision    recall  f1-score   support
+
+         0.0     0.6258    0.8160    0.7083       125
+         1.0     0.7356    0.5120    0.6038       125
+
+    accuracy                         0.6640       250
+   macro avg     0.6807    0.6640    0.6561       250
+weighted avg     0.6807    0.6640    0.6561       250
+

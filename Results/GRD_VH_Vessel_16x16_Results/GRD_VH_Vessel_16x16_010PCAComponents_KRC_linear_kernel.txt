@@ -1,0 +1,24 @@
+Best params:
+{'alpha': 0.0001, 'kernel': 'linear'}
+
+Training Performance:
+              precision    recall  f1-score   support
+
+           0     0.7085    0.7000    0.7042       500
+           1     0.7036    0.7120    0.7078       500
+
+    accuracy                         0.7060      1000
+   macro avg     0.7060    0.7060    0.7060      1000
+weighted avg     0.7060    0.7060    0.7060      1000
+
+
+Test Performance:
+              precision    recall  f1-score   support
+
+           0     0.7344    0.7520    0.7431       125
+           1     0.7459    0.7280    0.7368       125
+
+    accuracy                         0.7400       250
+   macro avg     0.7401    0.7400    0.7400       250
+weighted avg     0.7401    0.7400    0.7400       250
+

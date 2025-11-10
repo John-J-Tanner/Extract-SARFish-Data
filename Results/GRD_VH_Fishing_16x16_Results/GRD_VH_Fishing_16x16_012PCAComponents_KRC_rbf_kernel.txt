@@ -1,0 +1,24 @@
+Best params:
+{'alpha': 1.0, 'gamma': 0.31622776601683794, 'kernel': 'rbf'}
+
+Training Performance:
+              precision    recall  f1-score   support
+
+           0     1.0000    0.9920    0.9960       500
+           1     0.9921    1.0000    0.9960       500
+
+    accuracy                         0.9960      1000
+   macro avg     0.9960    0.9960    0.9960      1000
+weighted avg     0.9960    0.9960    0.9960      1000
+
+
+Test Performance:
+              precision    recall  f1-score   support
+
+           0     0.9279    0.8240    0.8729       125
+           1     0.8417    0.9360    0.8864       125
+
+    accuracy                         0.8800       250
+   macro avg     0.8848    0.8800    0.8796       250
+weighted avg     0.8848    0.8800    0.8796       250
+
