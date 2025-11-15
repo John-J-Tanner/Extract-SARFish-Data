@@ -2,7 +2,7 @@
 
 Welcome to the GitHub repository for the paper titled "Maritime object classification with SAR imagery using quantum kernel methods". This repository contains all the instructions and codes necessary to extract the SAR chip image datasets utilised in the paper from the SARFish dataset. Specifically, after downloading the SARFish dataset (instructions for which can be found in the links provided in [the paper for the SARFish dataset](https://openaccess.thecvf.com/content/WACV2024W/CDL/papers/Luckett_The_SARFish_Dataset_and_Challenge_WACVW_2024_paper.pdf)) in .zip format, the codes available in this repository can be used to unzip and extract large balanced datasets of 16x16 GRD, 16x16 SLC, and 70x12 SLC chip images. Using these large balanced datasets, we provide codes which then sample the exact balanced datasets which are utilised in our paper. Note though, that these codes are written to be exectued on HPC architecture with the Slurm Workload Manager. This requires the user to be permitted to submit at least 760 jobs to the queue at once.
 
-We kindly request users who wish to use the datasets in their own research to cite both our paper and the original [the paper for the SARFish dataset](https://openaccess.thecvf.com/content/WACV2024W/CDL/papers/Luckett_The_SARFish_Dataset_and_Challenge_WACVW_2024_paper.pdf).
+We kindly request users who wish to use the datasets in their own research to our paper.
 
 ## Contents
 
